@@ -23,9 +23,8 @@
     -->
 
     <header id="header">
-      <img src="img/logo.png" alt="google's logo" id="header-img">
       <nav id="nav-bar">
-        <ul>
+        <ul class="nav-list">
           <li>
             <a href="#features" class="nav-link"> Features</a>
           </li>
@@ -37,20 +36,73 @@
           </li>
         </ul>
       </nav>
-
-      <form action="https://www.freecodecamp.com/email-submit)" id="form">
-        <input type="email" name="email" id="email" placeholder="Enter email address" >
-<input type="submit" id="submit"></input>
-      </form>
-
+      
 
     </header>
 
-    <section id="features">features</section>
+    <section id="features">
+      <img src="img/logo.png" alt="google's logo" id="header-img" height="100px" width="200">
+
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input type="email" name="email" id="email" placeholder="Enter email address" >
+        <input type="submit" id="submit"></input>
+      </form>
+
+      <div class="desc">
+        <h2>Premium Materials</h2>
+        <p>
+          Our trombones use the shiniest brass which is sourced locally. This
+          will increase the longevity of your purchase.
+        </p>
+      </div>
+      <div class="desc">
+        <h2>Fast Shipping</h2>
+        <p>
+          We make sure you recieve your trombone as soon as we have finished
+          making it. We also provide free returns if you are not satisfied.
+        </p>
+      </div>
+    </section>
     <section id="works">
       <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/YdAIBlPVe9s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
-    <section id="pricing">pricing</section>
+    <section id="pricing">
+      <div class="product" id="tenor">
+        <div class="level">basic plan</div>
+        <h2>$600</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+
+      <div class="product" id="tenor">
+        <div class="level">medium plan</div>
+        <h2>$800</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+
+      <div class="product" id="tenor">
+        <div class="level">premium plan</div>
+        <h2>$2000</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+  </section>
 
 
 
